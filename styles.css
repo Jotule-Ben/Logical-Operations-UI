@@ -1,4 +1,40 @@
 *{
  margin: 0;
  padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+ display: grid;
+ max-width: 400px;
+ grid-template-columns: repeat(4, 100px);
+ grid-template-areas: "header header header header";
+}
+
+header{
+ height: auto;
+padding: 20px;
+width: 100%;
+/* display: grid;
+grid-template-columns: repeat(2, 50%); */
+/* background-color: rgba(0, 0, 0, 0.8); */
+background-color: black;
+}
+
+.logo{
+ display:grid;
+ max-width: 200px;
+ grid-template-columns: repeat(2, 100px);
+}
+
+.logo img{
+  width: 80px;
+  padding-top: 5px;
+}
+
+.logo span{
+ font-size: 30px;
+ color: #fff;
+ font-weight: bold;
+ padding-top: 10px;
 }
