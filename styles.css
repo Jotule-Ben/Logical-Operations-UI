@@ -99,3 +99,16 @@ header {
   width: 50px;
 }
 
+.tools button {
+  width: 180px;
+  margin-left: 50px;
+  margin-top: -9px;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  text-wrap: nowrap;
+  background-color: #ffc427;
+  border: 1px solid #ffc427;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
