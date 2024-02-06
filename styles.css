@@ -1,40 +1,101 @@
-*{
- margin: 0;
- padding: 0;
- font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
- display: grid;
- max-width: 400px;
- grid-template-columns: repeat(4, 100px);
- grid-template-areas: "header header header header";
+body {
+  display: grid;
+  max-width: 400px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-areas: "header header header header";
 }
 
-header{
- height: auto;
-padding: 20px;
-width: 100%;
-/* display: grid;
-grid-template-columns: repeat(2, 50%); */
-/* background-color: rgba(0, 0, 0, 0.8); */
-background-color: black;
+header {
+  height: 70px;
+  padding-top: 30px;
+  /* padding-bottom: 30px; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  background-color: black;
+  opacity: 90%;
+  position: fixed;
 }
 
-.logo{
- display:grid;
- max-width: 200px;
- grid-template-columns: repeat(2, 100px);
+.logo {
+  display: grid;
+  max-width: 160px;
+  grid-template-columns: repeat(2, 80px);
+  margin-left: 70px;
+  margin-top: -5px;
+  cursor: pointer;
 }
 
-.logo img{
-  width: 80px;
-  padding-top: 5px;
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+  border-radius: 10px;
 }
 
-.logo span{
- font-size: 30px;
- color: #fff;
- font-weight: bold;
- padding-top: 10px;
+.logo span {
+  font-size: 20px;
+  color: #fff;
+  padding-left: 35px;
 }
+
+.tools {
+  display: grid;
+  max-width: 500px;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10;
+  color: #fff;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+.selection {
+  display: flex;
+}
+
+.tools p:first-child {
+  /* color: black; */
+  text-wrap: nowrap;
+  font-size: 13px;
+  /* padding-right: 50px; */
+  padding-right: 5px;
+  border-right: 1px solid #bbbbbb;
+  cursor: pointer;
+}
+
+.selection img {
+  height: 15px;
+  width: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.globe img {
+  margin-left: 60px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.Humburger {
+  display: flex;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.tools span:last-of-type {
+  color: #fff;
+  padding-right: 10px;
+}
+
+.Humburger img {
+  height: 20px;
+  width: 50px;
+}
+
