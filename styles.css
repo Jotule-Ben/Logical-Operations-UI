@@ -193,3 +193,29 @@ header {
   cursor: pointer;
 }
 
+.secbelowbanner1 {
+  border-right: 1px solid #595959;
+  overflow-x: hidden;
+}
+
+.left {
+  padding: 60px;
+  color: #fff;
+  display: flex;
+}
+
+.left img {
+  height: 50px;
+  width: 200px;
+  padding-right: 10px;
+}
+
+.left h3 {
+  font-size: 20px;
+}
+
+.left p {
+  font-size: 14px;
+  padding-top: 7px;
+}
+
