@@ -241,3 +241,14 @@ header {
   font-size: 14px;
 }
 
+.moresec {
+  height: 180px;
+  display: grid;
+  max-width: 1450px;
+  grid-template-columns: 570px 250px 250px 278px;
+  cursor: pointer;
+  background-color: #1d3763;
+  color: #fff;
+  perspective: 100cap;
+}
+
