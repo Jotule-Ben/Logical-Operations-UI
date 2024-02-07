@@ -431,3 +431,20 @@ header {
   grid-column: auto / span 2;
 }
 
+.rhtimg3:hover {
+  /* z-index: 10; 
+  transform: translate(-30px);
+  transition: 1s;*/
+  transform-style: preserve-3d;
+  transform: rotateX(10deg) rotateY(-39deg) translateZ(-61px) translateX(-50px)
+  translateY(-11px);
+  transform-origin: left;
+  transition: 1s;
+  border-right: 8px solid #476b16; 
+}
+
+.rhtimg3 img {
+  height: 100px;
+  width: 200px;
+}
+
