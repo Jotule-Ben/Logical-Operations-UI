@@ -327,3 +327,11 @@ header {
   padding-top: 100px;
 }
 
+.col-3 {
+  background-color: #2e460e;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-top: 1px solid #1a1919;
+  border-bottom: 1px solid #1a1919;
+  cursor: pointer;
+}
