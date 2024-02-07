@@ -310,3 +310,7 @@ header {
   border-right: 1px solid #1a1919;
 }
 
+.store {
+  margin: 0;
+  border-right: 1px solid #1a1919;
+  background-color: #009ddc;
