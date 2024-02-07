@@ -177,3 +177,9 @@ header {
   cursor: pointer;
 }
 
+.bannerrightimg img {
+  cursor: pointer;
+  height: 430px;
+  width: 450px;
+  margin-right: 100px;
+}
