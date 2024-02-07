@@ -219,3 +219,25 @@ header {
   padding-top: 7px;
 }
 
+.right {
+  color: #fff;
+  display: flex;
+  padding: 30px;
+}
+
+.right img {
+  height: 120px;
+  width: 100px;
+  padding-right: 10px;
+}
+
+.right h3 {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.right p {
+  padding-top: 7px;
+  font-size: 14px;
+}
+
