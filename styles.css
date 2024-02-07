@@ -316,3 +316,14 @@ header {
   background-color: #009ddc;
   transition: width 0.4s ease-in, margin-left 0.4s ease-in;
 }
+
+.store:hover {
+  margin-left: 30px;
+}
+
+.store h2 {
+  padding: 30px;
+  padding-left: 40px;
+  padding-top: 100px;
+}
+
