@@ -140,3 +140,40 @@ header {
   font-size: 20px;
   padding-bottom: 20px;
 }
+
+.bannerbtns button:first-of-type {
+  font-size: 18px;
+  padding: 10px 20px;
+  padding-right: 35px;
+  text-transform: capitalize;
+  background-color: #ee3831;
+  border: 1px solid #ee3831;
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.dslp {
+  font-size: 18px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  background-color: #009ddc;
+  border: 1px solid #009ddc;
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.newsbtn {
+  font-size: 18px;
+  padding: 32px 15px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  background-color: #009ddc;
+  border: 1px solid #009ddc;
+  border-radius: 5px;
+  margin: 2px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
