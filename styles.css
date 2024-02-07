@@ -276,3 +276,16 @@ header {
   margin: 0;
   border-right: 1px solid #1a1919;
   background-color: #009ddc;
+  transition: width 0.4s ease-in, margin-left 0.4s ease-in;
+}
+
+.news:hover {
+  margin-left: 30px;
+}
+
+.news h2 {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 90px;
+  text-transform: uppercase;
+}
