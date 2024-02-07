@@ -335,3 +335,12 @@ header {
   border-bottom: 1px solid #1a1919;
   cursor: pointer;
 }
+
+.rhtimg1 {
+  background-color: #7fc027;
+  padding: 80px;
+  color: #fff;
+  border-right: 1px solid #1a1919;
+  border-bottom: 1px solid #1a1919;
+  grid-column: auto / span 2;
+}
