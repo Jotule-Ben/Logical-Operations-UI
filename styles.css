@@ -461,3 +461,18 @@ header {
   object-fit: contain;
 }
 
+.rhtimg4:hover {
+  /* transform: translate(30px);
+  transition: 1s;*/
+  border-left: 8px solid #476b16; 
+   transform-style: preserve-3d;
+  transform: rotateX(-10deg) rotateY(39deg) translateZ(61px) translateX(50px)
+    translateY(11px);
+  transform-origin: right;
+  transition: 1s;
+}
+
+.rhtimg1 p {
+  text-transform: uppercase;
+}
+
