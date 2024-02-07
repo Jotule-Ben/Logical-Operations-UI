@@ -183,3 +183,13 @@ header {
   width: 450px;
   margin-right: 100px;
 }
+
+.secbelowbanner {
+  background-color: #242424;
+  max-width: 1340;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 670px);
+  cursor: pointer;
+}
+
