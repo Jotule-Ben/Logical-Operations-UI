@@ -344,3 +344,19 @@ header {
   border-bottom: 1px solid #1a1919;
   grid-column: auto / span 2;
 }
+
+.rhtimg1:hover {
+  /* z-index: 10; */
+  /* transform: translate(-30px);*/
+  border-right: 8px solid #476b16; 
+  transform-style: preserve-3d;
+  transform: rotateX(10deg) rotateY(-39deg) translateZ(-61px) translateX(-50px)
+    translateY(-11px);
+  transform-origin: left;
+  transition: 1s;
+}
+
+.col-3 p {
+  font-size: 20px;
+  text-transform: capitalize;
+}
