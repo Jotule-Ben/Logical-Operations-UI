@@ -476,3 +476,13 @@ header {
   text-transform: uppercase;
 }
 
+.col-2 {
+  height: auto;
+  background-color: #3c142d;
+  color: #fff;
+  border-bottom: 1px solid #1a1919;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  z-index: 999;
+  cursor: pointer;
+}
