@@ -314,3 +314,5 @@ header {
   margin: 0;
   border-right: 1px solid #1a1919;
   background-color: #009ddc;
+  transition: width 0.4s ease-in, margin-left 0.4s ease-in;
+}
