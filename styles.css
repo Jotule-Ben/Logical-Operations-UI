@@ -486,3 +486,33 @@ header {
   z-index: 999;
   cursor: pointer;
 }
+
+.col-2right1 {
+  background-color: #972169;
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+  border-right: 1px solid #1a1919;
+  border-bottom: 1px solid #1a1919;
+  text-align: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.col-2right1 h3 {
+  font-size: 25px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.col-2right1 h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.col-2right1 p {
+  font-size: 40px;
+  font-weight: 100;
+  color: #1a1919;
+}
