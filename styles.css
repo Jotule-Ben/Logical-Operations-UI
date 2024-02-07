@@ -397,3 +397,12 @@ header {
   color: #444242;
   padding-left: 80px;
 }
+
+.rhtimg2 {
+  background-color: #7fc027;
+  padding-left: 150px;
+  color: #fff;
+  border-left: 1px solid #1a1919;
+  grid-column: auto / span 2;
+}
+
