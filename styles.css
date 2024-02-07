@@ -448,3 +448,16 @@ header {
   width: 200px;
 }
 
+.rhtimg4 {
+  background-color: #7fc027;
+  padding: 80px;
+  color: #fff;
+  border-left: 1px solid #1a1919;
+  border-top: 1px solid #1a1919;
+  grid-column: auto / span 2;
+}
+
+.rhtimg4 img {
+  object-fit: contain;
+}
+
