@@ -116,3 +116,27 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.banner {
+  margin-top: 150px;
+  margin-right: 50px;
+  z-index: 1px;
+  display: flex;
+}
+
+.bannertexts {
+  margin-right: 20px;
+  margin-left: 130px;
+  margin-top: 90px;
+  color: #fff;
+}
+
+.bannertexts h1 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.bannertexts p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
