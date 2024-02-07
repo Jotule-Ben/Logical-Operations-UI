@@ -272,3 +272,7 @@ header {
   color: #242424;
 }
 
+.news {
+  margin: 0;
+  border-right: 1px solid #1a1919;
+  background-color: #009ddc;
