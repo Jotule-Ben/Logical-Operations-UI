@@ -531,3 +531,20 @@ header {
   width: 140px;
 }
 
+.text {
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+
+.text h2 {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.text p {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
