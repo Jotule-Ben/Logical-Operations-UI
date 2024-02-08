@@ -808,3 +808,23 @@ footer {
   color: #989885;
   display: flex;
 }
+
+.leftfooter ul {
+  display: flex;
+  padding: 20px;
+}
+
+.leftfooter li {
+  list-style-type: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding-right: 5px;
+  padding-left: 10px;
+  border-right: 1px solid #989885;
+  text-transform: capitalize;
+  margin: 2px;
+}
+
+.leftfooter li:last-of-type {
+  border: none;
+}
