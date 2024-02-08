@@ -708,3 +708,21 @@ header {
 /* .seccol-2right1 img {
 height: 50px;
 } */
+
+.seccol-2right2 {
+  background-color: #009ddc;
+  border-bottom: 1px solid #1a1919;
+  padding: 50px;
+}
+
+/* .seccol-2right2 img {
+height: 50px;
+} */
+
+.seccol-2right3 {
+  background-color: #009ddc;
+  border-right: 1px solid #1a1919;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+
