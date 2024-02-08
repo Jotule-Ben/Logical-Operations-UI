@@ -726,3 +726,8 @@ height: 50px;
   padding-left: 20px;
 }
 
+.seccol-2right3:hover {
+  transform: translate(-30px, 30px);
+  transition: 1s;
+  margin-bottom: 30px;
+}
