@@ -592,3 +592,24 @@ header {
   overflow: hidden;
 }
 
+.business {
+  top: 200%;
+  position: relative;
+  transition: 0.3s;
+  height: 50%;
+}
+
+.col-2left3:hover .business {
+  top: 0;
+}
+
+.business p {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.col-2left3:hover .new2 {
+  display: none;
+}
+
