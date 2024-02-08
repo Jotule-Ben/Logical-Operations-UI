@@ -696,3 +696,15 @@ header {
   cursor: pointer;
 }
 
+.seccol-2right2:hover {
+  /* z-index: -1; */
+  transform: translate(30px, -30px);
+  transition: 1s;
+  border-right: 1px solid #1a1919;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+/* .seccol-2right1 img {
+height: 50px;
+} */
