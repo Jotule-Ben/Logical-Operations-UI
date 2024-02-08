@@ -624,3 +624,19 @@ header {
   overflow: hidden;
 }
 
+.certification {
+  top: 200%;
+  position: relative;
+  transition: 0.3s;
+  height: 50%;
+}
+
+.col-2right2:hover .certification {
+  top: 0;
+}
+
+.certification p {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
