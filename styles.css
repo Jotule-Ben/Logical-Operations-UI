@@ -672,3 +672,14 @@ header {
   border-right: 1px solid #1a1919;
   margin-top: 30px;
 }
+
+.seccol-2left p {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.seccol-2left p:last-of-type {
+  color: #383737;
+  font-size: 30px;
+  line-height: 1.5;
+}
