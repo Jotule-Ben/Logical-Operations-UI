@@ -845,3 +845,10 @@ footer {
   cursor: pointer;
 }
 
+.socials img {
+  filter: grayscale(10);
+}
+
+.socials img:hover {
+  filter: brightness(2);
+}
