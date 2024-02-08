@@ -579,3 +579,16 @@ header {
   font-size: 18px;
   text-transform: capitalize;
 }
+
+.col-2left3 {
+  background-color: #972169;
+  border-right: 1px solid #1a1919;
+  grid-column: auto / span 2;
+  text-transform: uppercase;
+  font-size: 28px;
+  padding: 100px;
+  padding-left: 250px;
+  height: 110px;
+  overflow: hidden;
+}
+
