@@ -683,3 +683,16 @@ header {
   font-size: 30px;
   line-height: 1.5;
 }
+
+.seccol-2left h1 {
+  font-size: 60px;
+}
+
+.seccol-2right1 {
+  background-color: #009ddc;
+  border-right: 1px solid #1a1919;
+  border-bottom: 1px solid #1a1919;
+  padding: 50px;
+  cursor: pointer;
+}
+
