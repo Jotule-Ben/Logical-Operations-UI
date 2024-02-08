@@ -548,3 +548,18 @@ header {
   padding-top: 15px;
 }
 
+.col-2left2 {
+  background-color: #972169;
+  grid-column: auto / span 2;
+  border-bottom: 1px solid #1a1919;
+  font-size: 28px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 100px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.col-2left2:hover .whitepaper1 {
+  display: none;
+}
