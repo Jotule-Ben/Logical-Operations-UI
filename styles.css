@@ -653,3 +653,15 @@ header {
   grid-template-columns: repeat(4, 1fr);
   cursor: pointer;
 }
+
+.seccol-2left {
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+  border-right: 1px solid #1a1919;
+  border-left: 1px solid #1a1919;
+  align-items: center;
+  padding-top: 220px;
+  padding-left: 220px;
+  background-color: #009ddc;
+}
+
