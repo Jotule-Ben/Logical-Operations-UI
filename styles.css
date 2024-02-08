@@ -801,3 +801,10 @@ height: 50px;
   margin-left: 30px;
 }
 
+footer {
+  height: auto;
+  background-color: black;
+  width: 100%;
+  color: #989885;
+  display: flex;
+}
