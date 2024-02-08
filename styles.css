@@ -613,3 +613,14 @@ header {
   display: none;
 }
 
+.col-2right2 {
+  background-color: #972169;
+  border-right: 1px solid #1a1919;
+  grid-column: auto / span 2;
+  text-transform: uppercase;
+  font-size: 28px;
+  padding: 80px;
+  padding-left: 100px;
+  overflow: hidden;
+}
+
