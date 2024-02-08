@@ -731,3 +731,8 @@ height: 50px;
   transition: 1s;
   margin-bottom: 30px;
 }
+
+.seccol-2right4 {
+  background-color: #009ddc;
+  padding: 50px;
+}
