@@ -563,3 +563,19 @@ header {
 .col-2left2:hover .whitepaper1 {
   display: none;
 }
+
+.whitepaper2 {
+  top: 200%;
+  position: relative;
+  transition: 0.3s;
+  height: 50%;
+}
+
+.col-2left2:hover .whitepaper2 {
+  top: 0;
+}
+
+.whitepaper2 p {
+  font-size: 18px;
+  text-transform: capitalize;
+}
