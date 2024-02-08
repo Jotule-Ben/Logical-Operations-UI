@@ -833,3 +833,15 @@ footer {
   color: #fff;
 }
 
+.socials {
+  height: 30px;
+  width: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 6%;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
