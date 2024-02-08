@@ -868,3 +868,12 @@ footer {
   font-size: 13px;
   cursor: pointer;
 }
+
+.policies li:hover {
+  color: #fff;
+}
+
+.policies p {
+  font-size: 14px;
+  padding-top: 5px;
+}
