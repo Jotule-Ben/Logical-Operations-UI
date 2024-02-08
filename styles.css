@@ -828,3 +828,8 @@ footer {
 .leftfooter li:last-of-type {
   border: none;
 }
+
+.leftfooter li:hover {
+  color: #fff;
+}
+
