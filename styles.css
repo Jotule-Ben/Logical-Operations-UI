@@ -780,3 +780,20 @@ height: 50px;
   font-weight: 600;
   padding-top: 30px;
 }
+
+.arrow {
+  grid-row: auto / span 2;
+  background-color: #ffc427;
+  padding-top: 50px;
+  padding-left: 130px;
+  font-size: 50px;
+  font-weight: lighter;
+  transition: width 0.4s ease-in, margin-left 0.4s ease-in;
+}
+
+.arrow {
+  margin: 0;
+  border-right: 1px solid #1a1919;
+  cursor: pointer;
+}
+
