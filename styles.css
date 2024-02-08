@@ -756,3 +756,27 @@ height: 50px;
   z-index: 999;
 }
 
+.talk {
+  grid-row: auto / span 2;
+  grid-column: auto / span 2;
+  border-right: 1px solid #1a1919;
+  display: flex;
+  background-color: #ffc427;
+  padding: 30px;
+  padding-left: 200px;
+}
+
+.talk h1 {
+  font-size: 50px;
+  text-wrap: nowrap;
+  font-weight: bolder;
+  padding-right: 40px;
+  padding-top: 30px;
+}
+
+.talk p {
+  font-size: 20px;
+  text-wrap: wrap;
+  font-weight: 600;
+  padding-top: 30px;
+}
