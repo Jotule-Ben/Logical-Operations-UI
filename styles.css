@@ -644,3 +644,12 @@ header {
   display: none;
 }
 
+.seccol-2 {
+  height: 100vh;
+  background-color: #10262f;
+  color: #fff;
+  border-bottom: 1px solid #1a1919;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
+}
