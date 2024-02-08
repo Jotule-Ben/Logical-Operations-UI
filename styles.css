@@ -852,3 +852,19 @@ footer {
 .socials img:hover {
   filter: brightness(2);
 }
+
+.policies {
+  padding-left: 300px;
+  padding-top: 10px;
+}
+
+.policies ul {
+  display: flex;
+}
+
+.policies li {
+  list-style-type: none;
+  margin-left: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
