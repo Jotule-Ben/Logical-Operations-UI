@@ -736,3 +736,12 @@ height: 50px;
   background-color: #009ddc;
   padding: 50px;
 }
+
+.seccol-2right4:hover {
+  transform: translate(30px, 30px);
+  transition: 1s;
+  border-right: 1px solid #1a1919;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
