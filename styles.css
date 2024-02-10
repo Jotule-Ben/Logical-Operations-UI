@@ -1181,6 +1181,97 @@ footer {
 }
 
 
+.col-3 {
+  background-color: #2e460e;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border-top: 1px solid #1a1919;
+  border-bottom: 1px solid #1a1919;
+  cursor: pointer;
+}
+
+.rhtimg1 {
+  background-color: #7fc027;
+  padding: 8px;
+  width: 100px;
+}
+
+.rhtimg1 img{
+  height: 50px;
+  width: 80px;
+}
+
+.col-3 p {
+  font-size: 8px;
+  text-transform: capitalize;
+}
+
+.rhtimg1:hover {
+  border-right: 4px solid #476b16;
+}
+
+.maintext {
+  background-color: #7fc027;
+  padding-top: 50px;
+  /* grid-column: auto / span 2;
+  grid-row: auto / span 2; */
+  padding-left: 15px;
+  border-left: 1px solid #1a1919;
+  width: 100px;
+}
+
+.maintext h1 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.maintext h2 {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.maintext h5 {
+  color: #383737;
+  font-size: 6px;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  font-weight: 300;
+}
+
+.maintext p {
+  color: #444242;
+  padding-left: 20px;
+  width: 10px;
+}
+
+.rhtimg4{
+  display: none;
+}
+
+.rhtimg5{
+  display: none;
+}
+
+.rhtimg2 {
+  background-color: #7fc027;
+  padding: 8px;
+  width: 100px;
+}
+
+.rhtimg2 img{
+  height: 50px;
+  width: 80px;
+}
+
+
+
+
 
 
 
@@ -1189,20 +1280,143 @@ footer {
 
 
 /*
-.about h2 {
-  padding-left: 20px;
-  padding-top: 90px;
+.col-3 {
+  background-color: #2e460e;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-top: 1px solid #1a1919;
+  border-bottom: 1px solid #1a1919;
+  cursor: pointer;
 }
 
-.about {
+
+.rhtimg1 {
+  background-color: #7fc027;
+  padding: 80px;
+  color: #fff;
   border-right: 1px solid #1a1919;
+  border-bottom: 1px solid #1a1919;
+  grid-column: auto / span 2;
 }
 
-.store {
-  margin: 0;
+.rhtimg1:hover {
+  border-right: 8px solid #476b16;
+  transform-style: preserve-3d;
+  transform: rotateX(10deg) rotateY(-39deg) translateZ(-61px) translateX(-50px)
+    translateY(-11px);
+  transform-origin: left;
+  transition: 1s;
+}
+
+.col-3 p {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.maintext {
+  background-color: #7fc027;
+  padding-top: 250px;
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+  padding-left: 100px;
+  border-left: 1px solid #1a1919;
+}
+
+.maintext h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.maintext h2 {
+  color: #fff;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.maintext h5 {
+  color: #383737;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+
+.maintext p {
+  color: #444242;
+  padding-left: 80px;
+}
+
+.rhtimg2 {
+  background-color: #7fc027;
+  padding-left: 150px;
+  color: #fff;
+  border-left: 1px solid #1a1919;
+  grid-column: auto / span 2;
+}
+
+.rhtimg2:hover {
+  border-left: 8px solid #476b16;
+  transform-style: preserve-3d;
+  transform: rotateX(-10deg) rotateY(39deg) translateZ(61px) translateX(50px)
+    translateY(11px);
+  transform-origin: right;
+  transition: 1s;
+}
+
+.rhtimg2 img {
+  object-fit: contain;
+}
+
+.rhtimg3 {
+  background-color: #7fc027;
+  padding: 80px;
+  color: #fff;
   border-right: 1px solid #1a1919;
-  background-color: #009ddc;
-  transition: width 0.6s ease-in, margin-left 0.6s ease-in;
+  grid-column: auto / span 2;
+}
+
+.rhtimg3:hover {
+  transform-style: preserve-3d;
+  transform: rotateX(10deg) rotateY(-39deg) translateZ(-61px) translateX(-50px)
+    translateY(-11px);
+  transform-origin: left;
+  transition: 1s;
+  border-right: 8px solid #476b16;
+}
+
+.rhtimg3 img {
+  height: 100px;
+  width: 200px;
+}
+
+.rhtimg4 {
+  background-color: #7fc027;
+  padding: 80px;
+  color: #fff;
+  border-left: 1px solid #1a1919;
+  border-top: 1px solid #1a1919;
+  grid-column: auto / span 2;
+}
+
+.rhtimg4 img {
+  object-fit: contain;
+}
+
+.rhtimg4:hover {
+  border-left: 8px solid #476b16;
+  transform-style: preserve-3d;
+  transform: rotateX(-10deg) rotateY(39deg) translateZ(61px) translateX(50px)
+    translateY(11px);
+  transform-origin: right;
+  transition: 1s;
+}
+
+.rhtimg1 p {
+  text-transform: uppercase;
 }
 
 /*
