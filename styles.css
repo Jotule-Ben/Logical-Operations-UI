@@ -671,7 +671,7 @@ header {
   transform: translate(-30px, -30px);
   transition: 1s;
   border-right: 1px solid #1a1919;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .seccol-2left p {
@@ -695,7 +695,6 @@ header {
   border-bottom: 1px solid #1a1919;
   padding: 50px;
   cursor: pointer;
-  height: ;
 }
 
 .seccol-2right2:hover {
@@ -703,8 +702,8 @@ header {
   transform: translate(30px, -30px);
   transition: 1s;
   border-right: 1px solid #1a1919;
-  margin-top: 30px;
-  margin-right: 30px;
+  /* margin-top: 30px;
+  margin-right: 30px; */
 }
 
 /* .seccol-2right1 img {
@@ -731,7 +730,7 @@ height: 50px;
 .seccol-2right3:hover {
   transform: translate(-30px, 30px);
   transition: 1s;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .seccol-2right4 {
@@ -743,8 +742,8 @@ height: 50px;
   transform: translate(30px, 30px);
   transition: 1s;
   border-right: 1px solid #1a1919;
-  margin-bottom: 30px;
-  margin-right: 30px;
+  /* margin-bottom: 30px;
+  margin-right: 30px; */
 }
 
 .lastsec {
