@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  /* overflow-x: hidden; */
 }
 
 header {
@@ -20,7 +21,7 @@ header {
   display: grid;
   max-width: 160px;
   grid-template-columns: repeat(2, 80px);
-  margin-left: 70px;
+  margin-left: 10px;
   margin-top: -5px;
   cursor: pointer;
 }
@@ -119,7 +120,7 @@ header {
 }
 
 .banner {
-  margin-top: 150px;
+  margin-top: 120px;
   margin-right: 50px;
   z-index: 1px;
   display: flex;
@@ -127,7 +128,7 @@ header {
 
 .bannertexts {
   margin-right: 20px;
-  margin-left: 130px;
+  margin-left: 50px;
   margin-top: 90px;
   color: #fff;
 }
@@ -180,9 +181,9 @@ header {
 
 .bannerrightimg img {
   cursor: pointer;
-  height: 430px;
-  width: 450px;
-  margin-right: 100px;
+  height: 380px;
+  width: 380px;
+  margin-right: 0px;
 }
 
 .secbelowbanner {
@@ -246,7 +247,7 @@ header {
   height: 180px;
   display: grid;
   max-width: 1450px;
-  grid-template-columns: 570px 250px 250px 278px;
+  grid-template-columns: 500px 190px 195px 195px;
   cursor: pointer;
   background-color: #1d3763;
   color: #fff;
@@ -261,12 +262,12 @@ header {
 
 .learning h2 {
   padding: 30px;
-  padding-left: 50px;
+  padding-left: 30px;
   padding-top: 70px;
 }
 
 .learning p {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 .learning span {
@@ -285,9 +286,9 @@ header {
 }
 
 .news h2 {
-  font-size: 30px;
+  font-size: 22px;
   padding-left: 20px;
-  padding-top: 90px;
+  padding-top: 80px;
   text-transform: uppercase;
 }
 
@@ -304,7 +305,7 @@ header {
 
 .about h2 {
   padding-left: 20px;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 .about {
@@ -325,7 +326,7 @@ header {
 .store h2 {
   padding: 30px;
   padding-left: 40px;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .col-3 {
@@ -367,7 +368,7 @@ header {
   padding-top: 250px;
   grid-column: auto / span 2;
   grid-row: auto / span 2;
-  padding-left: 100px;
+  padding-left: 60px;
   border-left: 1px solid #1a1919;
 }
 
@@ -401,7 +402,7 @@ header {
 
 .rhtimg2 {
   background-color: #7fc027;
-  padding-left: 150px;
+  padding-left: 100px;
   color: #fff;
   border-left: 1px solid #1a1919;
   grid-column: auto / span 2;
@@ -422,6 +423,7 @@ header {
 
 .rhtimg2 img {
   object-fit: contain;
+  padding-top: 90px;
 }
 
 .rhtimg3 {
@@ -430,6 +432,7 @@ header {
   color: #fff;
   border-right: 1px solid #1a1919;
   grid-column: auto / span 2;
+  text-align: center;
 }
 
 .rhtimg3:hover {
@@ -655,14 +658,18 @@ header {
   cursor: pointer;
 }
 
+.rgt {
+  overflow: hidden;
+}
+
 .seccol-2left {
   grid-column: auto / span 2;
   grid-row: auto / span 2;
   border-right: 1px solid #1a1919;
   border-left: 1px solid #1a1919;
   align-items: center;
-  padding-top: 220px;
-  padding-left: 220px;
+  padding-top: 180px;
+  padding-left: 40px;
   background-color: #009ddc;
 }
 
@@ -694,6 +701,8 @@ header {
   border-right: 1px solid #1a1919;
   border-bottom: 1px solid #1a1919;
   padding: 50px;
+  padding-top: 80px;
+  height: 127px;
   cursor: pointer;
 }
 
@@ -714,6 +723,9 @@ height: 50px;
   background-color: #009ddc;
   border-bottom: 1px solid #1a1919;
   padding: 50px;
+  padding-left: 40px;
+  padding-top: 80px;
+  height: 127px;
 }
 
 /* .seccol-2right2 img {
@@ -725,6 +737,7 @@ height: 50px;
   border-right: 1px solid #1a1919;
   padding-top: 80px;
   padding-left: 20px;
+  height: 175px;
 }
 
 .seccol-2right3:hover {
@@ -744,6 +757,10 @@ height: 50px;
   border-right: 1px solid #1a1919;
   /* margin-bottom: 30px;
   margin-right: 30px; */
+}
+
+.rgt {
+  overflow: hidden;
 }
 
 .lastsec {
@@ -817,7 +834,7 @@ footer {
 
 .leftfooter li {
   list-style-type: none;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
   padding-right: 5px;
   padding-left: 10px;
@@ -835,13 +852,14 @@ footer {
 }
 
 .socials {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   color: #fff;
   display: flex;
   justify-content: space-between;
   width: 6%;
   padding: 10px;
+  padding-top: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
@@ -866,7 +884,7 @@ footer {
 .policies li {
   list-style-type: none;
   margin-left: 10px;
-  font-size: 13px;
+  font-size: 12px;
   cursor: pointer;
 }
 
@@ -875,7 +893,7 @@ footer {
 }
 
 .policies p {
-  font-size: 14px;
+  font-size: 10px;
   padding-top: 5px;
 }
 
